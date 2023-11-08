@@ -37,3 +37,15 @@ header a {
     padding: 24px 80px 128px 80px;
     position: relative;
 }
+
+h1, 
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+.paragrafo {
+    line-height: 150%;
+    margin-bottom: 32px;
+}
