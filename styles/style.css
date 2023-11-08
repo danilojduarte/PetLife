@@ -14,7 +14,7 @@ body {
 
 header {
     background-color: #ff9a6c;
-    padding: 24px 80px 24px 80px;
+    padding: 20px 80px 20px 80px;
 
     display: flex;
     align-items: center;
@@ -22,5 +22,18 @@ header {
 }
 
 header a {
-    
+    color: #fff;
+    font-weight: 600;
+    padding: 32px;
+}
+
+/* Aplicar efeito em links do nav */
+
+
+#inicio {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 24px 80px 128px 80px;
+    position: relative;
 }
