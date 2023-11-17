@@ -51,6 +51,28 @@ h2 {
 }
 
 .button {
+    color: #fff;
     background-color: #ff725e;
+    border-radius: 8px;
     padding: 16px 32px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.button:hover {
+    background-color: #fff;
+    color: #ff725e;
+}
+
+.button-transparente {
+    background-color: transparent;
+    color: #ff725e;
+    border-radius: 8px;
+    padding: 16px 32px;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+.button-transparente:hover {
+    background-color: #ff725e;
+    color: #fff;
 }
