@@ -76,3 +76,11 @@ h2 {
     background-color: #ff725e;
     color: #fff;
 }
+
+.absoluto {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
