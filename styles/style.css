@@ -115,4 +115,20 @@ h2 {
     align-items: center;
     gap: 64px;
     padding: 64px 80px;
-    }
+}
+
+.duvida {
+    position: relative;
+}
+
+.duvida h3 {
+    border: 2px  solid #ff725e;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 24px;
+}
+.duvida img {
+    position: absolute;
+    top: 32px;
+    right: 24px;
+}
