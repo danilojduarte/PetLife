@@ -109,3 +109,10 @@ h2 {
     max-width: 950px;
     margin: 0 auto;
 }
+
+#duvidas {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+    }
