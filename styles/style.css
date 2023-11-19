@@ -138,4 +138,14 @@ h2 {
     border-bottom: 1px solid #ff725e;
     border-left: 1px solid #ff725e;
     border-radius: 0 0 8px 8px;
+
+    margin-top: -8px;
+    padding: 24px;
+}
+
+footer {
+    background-color: rgba( 255, 152, 108, 0.25);
+    display: flex;
+    gap: 80px;
+    padding: 64px 80px;
 }
