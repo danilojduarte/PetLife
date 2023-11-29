@@ -146,6 +146,41 @@ h2 {
 footer {
     background-color: rgba( 255, 152, 108, 0.25);
     display: flex;
-    gap: 80px;
+    justify-content: space-between;
+    gap: 60px;
     padding: 64px 80px;
+}
+
+footer img,
+footer .titulo {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+footer nav a {
+    color: #263138;
+    display: block;
+    margin-bottom: 16px;
+    
+}
+
+footer p {
+    margin-bottom: 16px;
+    max-width: 350px;
+}
+
+footer p a {
+    color: #263138;
+}
+
+#copyright {
+    background-color: #263138;
+    text-align: center;
+    padding: 24px;
+    color: #fff;
+}
+
+#copyright a {
+    color: #ff9a6c;
 }
